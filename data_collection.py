@@ -6,11 +6,11 @@ import praw
 
 #Reddit Credentials for StockTextScrapper 
 reddit_app = praw.Reddit(
-    client_id = 'Jeusz8JJuv0vI-Ig0FS7mg',
-    client_secret = 'YdOI7tnGXswDZ1pLa9yne4Isj9MXOw',
-    user_agent = 'sentiment_script',
-    username = 'babyonsteroids1',
-    password = 'Haloreach4$'
+    client_id = 'id',
+    client_secret = 'secret',
+    user_agent = 'agent',
+    username = 'username',
+    password = 'password'
 )
     
 def collect_posts(subreddit=None, limit=100):
